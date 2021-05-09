@@ -17,15 +17,16 @@
 <style>
   /* the viewer container must have a defined size */
   #viewer {
-    width: 100vw;
-    height: 50vh;
+    width: 75vw;
+    height: 75vh;
   }
 </style>
 
 <script>
   var viewer = new PhotoSphereViewer.Viewer({
     container: document.querySelector('#viewer'),
-    panorama: './images/start.jpg'
+    panorama: './images/start.jpg',
+    caption: 'Beginning of Class'
   });
 </script>
 
