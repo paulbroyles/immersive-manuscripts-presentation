@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <title><i>Sir Orfeo</i></title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css"/>
+<link rel="stylesheet" href="viewer.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uevent@2/browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.js"></script>
+
+</head>
+
+<body>
+<div id="viewer"></div>
+
+<script>
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: document.querySelector('#viewer'),
+    panorama: './images/orfeo.jpg',
+    caption: '<i>Sir Orfeo</i> in its manuscripts'
+  });
+</script>
+
+<body>
+
+</html>
