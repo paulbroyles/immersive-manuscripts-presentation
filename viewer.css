@@ -1,0 +1,5 @@
+/* the viewer container must have a defined size */
+#viewer {
+  width: 100vw;
+  height: 100vh;
+}
